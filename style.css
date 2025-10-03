@@ -1,0 +1,839 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+html {
+    font-size: 16px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; 
+}
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;    
+}
+
+header {
+    font-family: Nunito Sans;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 77px 124px 98px;
+}
+
+header > h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #282A30;
+    cursor: pointer;
+}
+
+.nav-links {
+    margin-left: 39px;
+}
+
+.nav-links > a {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 1.1875rem;
+    color: #282A30;
+    margin-left: 106px;
+    transition: 0.5s all ease;
+}
+
+.nav-links > a:hover {
+    color: #F7515C;
+    transition: 0.5s all ease;
+}
+
+.icons {
+    display: flex;
+    margin-right: 100px;
+    width: 27px;
+    height: 29.01689910888672px;
+    gap: 85px;
+    cursor: pointer;
+}
+
+.main-leftimg {
+    position: absolute;
+}
+
+.main {
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-bottom: 319px;
+}
+
+.main-left {
+    margin-top: 113px;
+}
+
+.main-left > h1 {
+    color: #F7515C;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 62px;
+}
+
+.main-left > span {
+    color: #282A30;
+    font-weight: 700;
+    font-size: 3.4375rem;
+    gap: 13px;
+}
+
+.main-buttons {
+    display: flex;
+    align-items: center;
+    gap: 67px;
+    margin-top: 47px;
+}
+
+.main-buttons > button {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #F7515C;
+    width: 207px;
+    height: 78px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.375rem;
+    color: white;
+    transition: 0.5s all ease;
+}
+
+.main-buttons > button:hover {
+    background-color: #000000;
+    transition: 0.5s all ease;
+}
+
+.main-button2 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main-button2 > img {
+    width: 21.000000000000018px;
+    height: 21.000000000000018px;
+    margin-right: 43px;
+    cursor: pointer;
+}
+
+.main-button2 > span {
+    color: #282A30;
+    font-weight: 600;
+    font-size: 1.375rem;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.triangle {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 70px 0px #0000008e;
+}
+
+.triangle > img {
+    padding: 19px 19px 19px 21px;
+    cursor: pointer;
+}
+
+.main-button2:hover > span {
+    color: #F7515C;
+    transition: 0.5s all ease;
+}
+
+.main-right {
+    margin-right: 100px;
+}
+
+.about {
+    color: #282A30;
+    margin-bottom: 294px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left > img {
+    position: absolute;
+}
+
+.about-img {
+    margin-left: 100px;
+}
+
+.first {
+    margin-top: 521px;
+    margin-left: 52px;
+}
+
+        .second {
+            margin-top: 332px;
+            margin-left: 192px;
+        }
+
+        .about-right {
+            margin-right: 100px;
+            padding-top: 52px;
+        }
+
+        .about-right > h2 {
+            color: #282A30;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 3.75rem;
+        }
+
+        .about-right > h1 {
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 6.25rem;
+            color: white;
+            -webkit-text-stroke: 2px #282A30;
+            display: inline-block;
+        }
+
+        .opisanie {
+            margin-top: 55px;
+        }
+
+        .opisanie > p {
+            color: #00000073;
+            font-family: Nunito Sans;
+            font-weight: 400;
+            font-size: 1.375rem;
+            margin-top: 19px;
+        }
+
+        .about-right > button {
+            margin-top: 48px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            background-color: #F7515C;
+            width: 230px;
+            height: 78px;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1.375rem;
+            color: white;
+            transition: 0.5s all ease;
+        }
+
+        .about-right > button:hover {
+            background-color: #000000;
+            transition: 0.5s all ease;
+        }
+
+        .more {
+            margin-bottom: 1021px;
+        }
+
+        .photos {
+            margin-top: 87px;
+        }
+
+        .more-img {
+            position: absolute;
+            margin-left: 216px;
+        }
+
+        .more1 {
+            position: absolute;
+            width: 449px;
+            height: 199px;
+            margin-top: 90px;
+            margin-left: 86px;
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.349);
+        }
+
+        .more2 {
+            position: absolute;
+            width: 449px;
+            height: 199px;
+            margin-left: 735px;
+            margin-bottom: 51px;
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.349);
+        }
+
+        .more3 {
+            position: absolute;
+            width: 449px;
+            height: 199px;
+            margin-left: 865px;
+            margin-top: 462px;
+            box-shadow: 0 10px 12px rgba(0, 0, 0, 0.349);
+        }
+
+        .more-text {
+            margin-left: 95px;
+        }
+
+        .more-text > h2 {
+            color: #282A30;
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 2.5rem;
+        }
+
+        .more-text > h1 {
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 6.25rem;
+            color: white;
+            -webkit-text-stroke: 2px #282A30;
+            display: inline-block;
+        }
+
+        .products {
+            margin-bottom: 278px;
+        }
+
+        .products-head {
+            display: flex;
+        }
+
+        .products-head > img {
+            margin-left: 645px;
+            margin-top: 120px;
+            height: 50px;
+            width: 148px;
+            cursor: pointer;
+        }
+
+        .products-texts {
+            margin-left: 95px;
+        }
+
+        .products-texts > h2 {
+            color: #282A30;
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 2.375rem;
+        }
+
+        .products-texts > h1 {
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 6.25rem;
+            color: white;
+            -webkit-text-stroke: 2px #282A30;
+            display: inline-block;
+        }
+
+        .cards {
+            display: flex;
+        }
+
+        .cards > img {
+            position: absolute;
+        }
+
+        .product2 {
+            margin-left: 313px;
+        }
+
+        .product3 {
+            margin-left: 630px;
+        }
+
+        .product4 {
+            margin-left: 947px;
+        }
+
+        .try {
+            margin-top: 828px;
+            display: flex;
+            margin-bottom: 148px;
+        }
+
+        .try-left {
+            margin-left: 95px;
+        }
+
+        .try-left > h2 {
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 6.25rem;
+            color: white;
+            -webkit-text-stroke: 2px #282A30;
+            display: inline-block;
+        }
+
+        .try-left > h1 {
+            font-family: Poppins;
+            font-weight: 700;
+            font-size: 6.25rem;
+            color: #282A30;
+        }
+
+        .try-left > button {
+            margin-top: 48px;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            background-color: #F7515C;
+            width: 230px;
+            height: 78px;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1.375rem;
+            color: white;
+            transition: 0.5s all ease;
+        }
+
+        .try-left > button:hover {
+            background-color: #000000;
+            transition: 0.5s all ease;
+        }
+
+        .try-right {
+            margin-left: 218px;
+        }
+
+        .footer {
+            display: flex;
+            gap: 180px;
+            margin-top: 100px;
+        }
+
+        .footer-column {
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+        }
+
+        .footer-column h3 {
+            font-family: poppins;
+            font-size: 1.625rem;
+            font-weight: 600;
+            color: #282A30;
+            margin-bottom: 24px;
+        }
+
+        .footer-column a {
+            font-family: poppins;
+            color: #282A30CC;
+            font-size: 1.125rem;
+            transition: color 0.5s ease;
+        }
+
+        .footer-column a:hover {
+            color: #F7515C;
+            transition: color 0.5s ease;
+        }
+
+        footer {
+            margin-bottom: 150px;
+            margin-left: 100px;
+        }
+
+        /* Мобильное меню */
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 30px;
+            height: 25px;
+            cursor: pointer;
+        }
+
+        .mobile-menu-toggle span {
+            height: 3px;
+            width: 100%;
+            background-color: #282A30;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+
+
+        @media (max-width: 1440px) {
+            header {
+                padding: 80px 60px 100px 80px;
+            }
+            
+            .nav-links > a {
+                margin-left: 80px;
+            }
+            
+            .main {
+                margin-left: 80px;
+            }
+            
+            .about-img {
+                margin-left: 80px;
+            }
+            
+            .about-right {
+                margin-right: 80px;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            header {
+                padding: 60px 40px 80px 60px;
+            }
+            
+            .nav-links > a {
+                margin-left: 60px;
+                font-size: 1rem;
+            }
+            
+            .main-left > span {
+                font-size: 2.8rem;
+            }
+            
+            .about-right > h2 {
+                font-size: 3rem;
+            }
+            
+            .about-right > h1 {
+                font-size: 5rem;
+            }
+            
+            .more-text > h2 {
+                font-size: 2rem;
+            }
+            
+            .more-text > h1 {
+                font-size: 5rem;
+            }
+            
+            .products-texts > h2 {
+                font-size: 2rem;
+            }
+            
+            .products-texts > h1 {
+                font-size: 5rem;
+            }
+            
+            .try-left > h2, .try-left > h1 {
+                font-size: 5rem;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            header {
+                padding: 40px 30px 60px 40px;
+            }
+            
+            .nav-links > a {
+                margin-left: 40px;
+            }
+            
+            .icons {
+                margin-right: 40px;
+                gap: 50px;
+            }
+            
+            .main {
+                margin-left: 40px;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 200px;
+            }
+            
+            .main-left {
+                text-align: center;
+                margin-top: 60px;
+            }
+            
+            .main-right {
+                margin-right: 0;
+                margin-top: 50px;
+            }
+            
+            .about {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .about-left {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                position: relative;
+            }
+            
+            .about-img {
+                margin-left: 0;
+                max-width: 80%;
+            }
+            
+            .first, .second {
+                display: none;
+            }
+            
+            .about-right {
+                margin-right: 0;
+                text-align: center;
+                padding: 40px 20px;
+            }
+            
+            .more {
+                margin-bottom: 600px;
+            }
+            
+            .photos {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .more-img, .more1, .more2, .more3 {
+                position: static;
+                margin: 10px 0;
+                width: 80%;
+                max-width: 400px;
+            }
+            
+            .more-text {
+                text-align: center;
+                margin-left: 0;
+            }
+            
+            .products-head {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .products-head > img {
+                margin-left: 0;
+                margin-top: 30px;
+            }
+            
+            .products-texts {
+                text-align: center;
+                margin-left: 0;
+            }
+            
+            .cards {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .cards > img {
+                position: static;
+                margin: 10px;
+                width: 45%;
+                max-width: 300px;
+            }
+            
+            .product2, .product3, .product4 {
+                margin-left: 0;
+            }
+            
+            .try {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 400px;
+            }
+            
+            .try-left {
+                text-align: center;
+                margin-left: 0;
+                margin-bottom: 40px;
+            }
+            
+            .try-right {
+                margin-left: 0;
+            }
+            
+            .footer {
+                gap: 100px;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            footer {
+                margin-left: 40px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 30px 20px;
+                flex-wrap: wrap;
+            }
+            
+            .nav-links {
+                display: none;
+                width: 100%;
+                order: 3;
+                margin-top: 20px;
+                margin-left: 0;
+            }
+            
+            .nav-links.active {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav-links > a {
+                margin: 10px 0;
+                margin-left: 0;
+            }
+            
+            .mobile-menu-toggle {
+                display: flex;
+            }
+            
+            .icons {
+                margin-right: 0;
+            }
+            
+            .main {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            
+            .main-left > span {
+                font-size: 2.2rem;
+            }
+            
+            .main-buttons {
+                flex-direction: column;
+                gap: 30px;
+            }
+            
+            .about-right > h2 {
+                font-size: 2.5rem;
+            }
+            
+            .about-right > h1 {
+                font-size: 4rem;
+            }
+            
+            .opisanie > p {
+                font-size: 1.1rem;
+            }
+            
+            .more-text > h2 {
+                font-size: 1.8rem;
+            }
+            
+            .more-text > h1 {
+                font-size: 4rem;
+            }
+            
+            .products-texts > h2 {
+                font-size: 1.8rem;
+            }
+            
+            .products-texts > h1 {
+                font-size: 4rem;
+            }
+            
+            .try-left > h2, .try-left > h1 {
+                font-size: 4rem;
+            }
+            
+            .footer {
+                gap: 50px;
+            }
+            
+            footer {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header > h1 {
+                font-size: 2rem;
+            }
+            
+            .main-left > h1 {
+                font-size: 1.1rem;
+            }
+            
+            .main-left > span {
+                font-size: 1.8rem;
+            }
+            
+            .main-buttons > button {
+                width: 180px;
+                height: 60px;
+                font-size: 1.1rem;
+            }
+            
+            .about-right > h2 {
+                font-size: 2rem;
+            }
+            
+            .about-right > h1 {
+                font-size: 3rem;
+            }
+            
+            .about-right > button {
+                width: 200px;
+                height: 60px;
+                font-size: 1.1rem;
+            }
+            
+            .more-text > h2 {
+                font-size: 1.5rem;
+            }
+            
+            .more-text > h1 {
+                font-size: 3rem;
+            }
+            
+            .products-texts > h2 {
+                font-size: 1.5rem;
+            }
+            
+            .products-texts > h1 {
+                font-size: 3rem;
+            }
+            
+            .try-left > h2, .try-left > h1 {
+                font-size: 3rem;
+            }
+            
+            .try-left > button {
+                width: 200px;
+                height: 60px;
+                font-size: 1.1rem;
+            }
+            
+            .footer {
+                flex-direction: column;
+                gap: 30px;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .footer-column h3 {
+                font-size: 1.4rem;
+            }
+            
+            .footer-column a {
+                font-size: 1rem;
+            }
+        }
